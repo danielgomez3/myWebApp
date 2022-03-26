@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my single-page app</title>
+    </head>
+
+
+  <body>
+    <!-- This is our entry point -->
+    <nav class="nav">
+      <a href"/" class="nav__link" data-link>Sign in</a>
+      <a href="/posts" class="nav__link" data-link>Posts</a>
+      <a href="/settings" class="nav__link" data-link>Settings</a>
+    </nav>
+    <script type="module" src="/static/js/index.js"></script> <!-- we need a javascript file for clients when they come in-->
+    <form>
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="user name"><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password">
+      <input type="submit" value="Submit">
+    </form>
+
+
+  </body>
+
+</html>
