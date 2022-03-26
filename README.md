@@ -22,13 +22,11 @@ JavaScript, NodeJS and HTML
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Web Site Name](https://www.w3schools.com/nodejs/)
 * [Web Site Name](https://nodejs.org/en/docs/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Add CSS 
 * Properly load the next website
 * Connect to mysql and have user submitted info into a database
